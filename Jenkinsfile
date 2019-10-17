@@ -4,6 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'npm --version'
+                sh 'ech "apple"'
                 sh 'echo "HELLO"'
             }
         }
